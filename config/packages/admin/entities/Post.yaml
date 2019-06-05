@@ -1,0 +1,12 @@
+easy_admin:
+   entities:
+      Post:
+        class: App\Entity\Post
+        templates:
+          edit: 'admin/post/edit.html.twig'
+
+        list:
+          actions:
+            - {name: 'edit', icon: 'pencil', label: false, css_class: 'btn btn-secondary'}
+            - {name: 'delete', icon: 'trash-alt', label: false, css_class: 'btn btn-danger'}
+      

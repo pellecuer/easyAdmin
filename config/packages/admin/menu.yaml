@@ -1,0 +1,10 @@
+easy_admin:
+   design:
+      brand_color: 'rgba(26, 188, 156, 0.85)'
+      menu:
+        - label: 'Blog'
+          icon: 'newspaper-o'
+          children:
+            - { entity: 'Post', icon: 'newspaper-o', label: 'Articles' }
+            - { entity: 'Category',  icon: 'inbox', label: 'Catégories' }
+            - { entity: 'Tag',  icon: 'tags', label: 'Tags' }

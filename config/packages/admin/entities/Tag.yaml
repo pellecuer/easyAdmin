@@ -1,0 +1,11 @@
+easy_admin:   
+   entities:
+       # List the entity class name you want to manage
+      #  - App\Entity\Product
+      Tag:
+            class: App\Entity\Tag
+            Label: 'Tag'
+            form:
+                fields:
+                    - {property: 'name'}
+                    - {property: 'slug'}
